@@ -1,6 +1,3 @@
-name: Daily Productivity Report
-
-on:
   schedule:
     # 23:59 Lisboa (WET = UTC+0 no inverno, WEST = UTC+1 no verão)
     # No inverno: 23:59 UTC = 23:59 Lisboa
