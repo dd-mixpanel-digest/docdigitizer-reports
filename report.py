@@ -10,7 +10,7 @@ import base64
 # ── Credentials (from GitHub Secrets) ──────────────────────────────────────
 MIXPANEL_USERNAME = os.environ["MIXPANEL_USERNAME"]
 MIXPANEL_SECRET   = os.environ["MIXPANEL_SECRET"]
-MIXPANEL_PROJECT  = os.environ["MIXPANEL_PROJECT_TOKEN"]
+MIXPANEL_PROJECT  = "1735137"
 GMAIL_USER        = os.environ["GMAIL_USER"]
 GMAIL_APP_PASS    = os.environ["GMAIL_APP_PASSWORD"]
 EMAIL_TO          = os.environ["EMAIL_TO"]
