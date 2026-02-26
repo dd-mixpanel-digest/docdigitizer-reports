@@ -33,9 +33,10 @@ def fetch_event(event_name):
         headers=headers,
         params=params
     )
+    print(f"Status: {resp.status_code}")
+    print(f"Response: {resp.text[:500]}")
     resp.raise_for_status()
 
-    # Export API returns newline-delimited JSON
     counts = defaultdict(int)
     for line in resp.text.strip().split("\n"):
         if not line:
